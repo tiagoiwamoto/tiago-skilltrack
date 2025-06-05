@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Instalar para rodar a conversão de imagem
+```bash
+sudo apt-get update
+sudo apt-get install imagemagick
+```
