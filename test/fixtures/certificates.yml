@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  earn_date: 2025-06-05
+  expire_date: 2025-06-05
+  image_src: MyString
+  image_src_thumb: MyString
+
+two:
+  title: MyString
+  earn_date: 2025-06-05
+  expire_date: 2025-06-05
+  image_src: MyString
+  image_src_thumb: MyString
