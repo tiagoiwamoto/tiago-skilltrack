@@ -10,11 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_06_05_111002) do
+ActiveRecord::Schema[8.0].define(version: 2025_06_06_105157) do
   create_table "certificates", force: :cascade do |t|
     t.string "title"
     t.date "earn_date"
     t.date "expire_date"
+    t.string "image_src"
+    t.string "image_src_thumb"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "courses", force: :cascade do |t|
+    t.string "title"
+    t.string "category"
+    t.date "earn_date"
+    t.string "school"
     t.string "image_src"
     t.string "image_src_thumb"
     t.datetime "created_at", null: false
